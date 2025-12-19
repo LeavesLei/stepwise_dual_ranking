@@ -31,7 +31,7 @@ python select_bc.py --env 'halfcheetah-medium-replay-v2' --normalize True --poli
 - **Random Selection Baseline**
 
 ```shell
-python select_bc_baseline.py --env $ENV --normalize True --policy_path_dir 'offline_policy_checkpoints/' --project 'SDR-Baseline' --budget 1024 --lambda_1 0 --lambda_2 0 --training_epoch 20 --seed 0
+python select_bc_baseline.py --env 'halfcheetah-medium-replay-v2' --normalize True --policy_path_dir 'offline_policy_checkpoints/' --project 'SDR-Baseline' --budget 1024 --lambda_1 0 --lambda_2 0 --training_epoch 20 --seed 0
 ```
 
 
@@ -39,7 +39,7 @@ python select_bc_baseline.py --env $ENV --normalize True --policy_path_dir 'offl
 - **Test loss vs. Normalized Return (Figure 3)**
 
 ```shell
-python subset_error_vs_return.py --env $ENV --normalize True --policy_path_dir 'offline_policy_checkpoints/' --project 'SDR' --subset_size 1024 --training_epoch 20 --seed 6
+python subset_error_vs_return.py --env 'halfcheetah-medium-replay-v2' --normalize True --policy_path_dir 'offline_policy_checkpoints/' --project 'SDR' --subset_size 1024 --training_epoch 20 --seed 0
 ```
 
 
