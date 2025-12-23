@@ -1,5 +1,5 @@
 # stepwise_dual_ranking
-[KDD 2026] Official repository for "Offline Behavioral Data Selection" (release soon) by Shiye Lei, Zhihao Cheng, and Dacheng Tao
+[KDD 2026] Official repository for "[Offline Behavioral Data Selection](https://arxiv.org/pdf/2512.18246)" by Shiye Lei, Zhihao Cheng, and Dacheng Tao
 
 
 
